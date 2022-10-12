@@ -12,6 +12,6 @@ public class Statistics
         float average=sum/numbers.size;
         int length=numbers.size();
         Collections.sort(numbers);
-        min=numbers.get(0);
-        max=numbers.get(length);
+        float min=numbers.get(0);
+        float max=numbers.get(length);
 }
