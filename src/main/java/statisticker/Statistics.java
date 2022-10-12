@@ -11,7 +11,7 @@ public class Statistics
     public float max;
     public float sum=0.0f;
   
-    public Stats(average,min,max) {
+    public Stats(float average,float min,float max) {
   
         this.average = average;
         this.max = max;
@@ -21,11 +21,11 @@ public class Statistics
         for(int i:numbers){
             sum+=i;
     }
-        float average=sum/numbers.size;
+        average=sum/numbers.size;
         int length=numbers.size();
         Collections.sort(numbers);
-        float min=numbers.get(0);
-        float max=numbers.get(length);
+         min=numbers.get(0);
+         max=numbers.get(length);
         return new Stats(average,min,max);
 }
 }
