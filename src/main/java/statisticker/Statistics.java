@@ -15,5 +15,6 @@ public class Statistics
         Collections.sort(numbers);
         float min=numbers.get(0);
         float max=numbers.get(length);
+        return average,min,max;
 }
 }
