@@ -1,10 +1,17 @@
 package statisticker;
 
 import java.util.List;
+import java.util.Collections;
 
 public class Statistics 
 {
     public static Stats getStatistics(List<___> numbers) {
-        //implement the computation of statistics here
+        for(int i:numbers){
+            sum+=i;
     }
+        float average=sum/numbers.size;
+        int length=numbers.size();
+        Collections.sort(numbers);
+        min=numbers.get(0);
+        max=numbers.get(length);
 }
