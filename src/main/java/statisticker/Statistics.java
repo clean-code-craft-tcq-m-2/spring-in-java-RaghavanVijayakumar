@@ -5,6 +5,7 @@ import java.util.Collections;
 
 public class Statistics 
 {
+ int sum=0;
     public static Stats getStatistics(List<___> numbers) {
         for(int i:numbers){
             sum+=i;
