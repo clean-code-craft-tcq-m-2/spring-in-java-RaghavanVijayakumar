@@ -5,8 +5,8 @@ import java.util.Collections;
 
 public class Statistics 
 {
- int sum=0;
     public static Stats getStatistics(List<___> numbers) {
+     float sum=0.0f;
         for(int i:numbers){
             sum+=i;
     }
