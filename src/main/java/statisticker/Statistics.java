@@ -15,3 +15,4 @@ public class Statistics
         float min=numbers.get(0);
         float max=numbers.get(length);
 }
+}
