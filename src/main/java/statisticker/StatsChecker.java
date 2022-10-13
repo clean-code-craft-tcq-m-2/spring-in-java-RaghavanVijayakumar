@@ -11,7 +11,6 @@ public class StatsChecker {
 	public void checkAndAlert(Float[] numbers) {
 		for (int i = 0; i < numbers.length; i++) {
 			if (numbers[i] > maxThreshold) {
-				System.out.println("true" + numbers[i]);
 				alerters[0].alert();
 				alerters[1].light();
 			}
