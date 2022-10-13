@@ -27,7 +27,7 @@ public class Statistics {
 		}
 	}
 
-	public static Stats getStatistics(List<FLoat> numbers) {
+	public static Stats getStatistics(List<Float> numbers) {
 		float min = 0, max = 0;
 		float sum = 0;
 		boolean checklist = false;
