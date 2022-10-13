@@ -31,13 +31,9 @@ public class StatisticsTest
 
         Statistics.Stats s = Statistics.getStatistics(emptyList);
         assertTrue(s.checklist);
-		assertTrue(s.checkmax);
-		assertTrue(s.checkavg);
-		assertTrue(s.checkmin);
-        //All fields of computedStats (average, max, min) must be
-        //Float.NaN (not-a-number), as described in
-        //https://www.geeksforgeeks.org/nan-not-number-java/
-        //Design the asserts here and implement accordingly.
+        assertTrue(s.checkmax);
+	assertTrue(s.checkavg);
+	assertTrue(s.checkmin);
     }
     @Test
     public void reportsAlertsIfMaxIsMoreThanThreshold()
