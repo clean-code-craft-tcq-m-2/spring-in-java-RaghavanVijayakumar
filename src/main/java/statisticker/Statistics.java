@@ -39,8 +39,8 @@ public class Statistics {
 		Collections.sort(numbers);
 		if (numbers.isEmpty()) {
 			checklist = true;
-			min = 0f / 0f;
-			max = 0f / 0f;
+			min = Float.NaN;
+			max = Float.NaN;
 		} else {
 			min = numbers.get(0);
 			max = numbers.get(length - 1);
